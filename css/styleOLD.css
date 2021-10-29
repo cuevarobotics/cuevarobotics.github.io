@@ -1,0 +1,148 @@
+/* Moving all css into styles.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  background-color: #333333;
+  color: #eeeeee;
+}
+
+.paragraph {
+    font-size: 160%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;
+    font-family: sans-serif;
+}
+
+.teams {
+  font-size: 160%;
+  line-height: 210%;
+  text-align: justify;
+  margin: 3%;
+  font-family: sans-serif;
+}
+
+.sponsors {
+  font-size: 160%;
+  line-height: 210%;
+  text-align: justify;
+  margin: 3%;
+  font-family: sans-serif;
+}
+
+.break1 {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: table;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(images/break1.jpg);
+}
+
+.break1 .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.break1-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.break1-content h1 {
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 500%;
+}
+
+.break2 {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: table;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(images/break2.jpg);
+}
+
+.break2 .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.break2-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.break2-content h1 {
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 500%;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 575px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.break3 {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: table;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(images/break3.jpg);
+}
+
+.break3 .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.break3-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.break3-content h1 {
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 500%;
+}
+
+.contact {
+  font-size: 160%;
+  line-height: 210%;
+  text-align: justify;
+  margin: 3%;
+  font-family: sans-serif;
+}

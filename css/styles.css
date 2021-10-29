@@ -1,0 +1,467 @@
+@font-face {
+  src: url(fonts/OpenSans-Regular.ttf);
+  font-family: sans;
+}
+
+@font-face {
+  src: url(fonts/Oswald-Regular.ttf);
+  font-family: osw;
+}
+
+@font-face {
+  src: url(fonts/Raleway-Regular.ttf);
+  font-family: rale;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333333;
+}
+
+.innerNavBar {
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.mainLogo {
+  width: 70px;
+  height: 70px;
+}
+
+.left {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 70px;
+}
+
+.mainLinks {
+  font-family: osw, sans-serif;
+  font-weight: 500;
+  font-size: 1.8em;
+  text-decoration: none;
+  color: #F9F3F4;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.right a:hover {
+  color: #3d59a7;
+}
+
+.navElements {
+  padding: 8px;
+}
+
+.Teams {
+  width: 5em;
+  padding: 8px;
+}
+
+.teamButton {
+  font-family: osw, sans-serif;
+  font-weight: 500;
+  font-size: 1.8em;
+  background-color: #333333;
+  color: #F9F3F4;
+  border: none;
+  outline: none;
+}
+
+
+.Teams:hover .teamcontent {
+  display: flex;
+  flex-direction: column;
+}
+
+.teamcontent {
+  display: none;
+  position: absolute;
+  text-align: center;
+  border: solid #F9F3F4 1px;
+  border-radius: 10px;
+  background-color: #333333;
+  width: inherit;
+  z-index: 1;
+}
+
+.teamcontent a {
+  font-family: osw, sans-serif;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #F9F3F4;
+}
+
+.teamcontent a:hover {
+  color: #3d59a7;
+}
+
+.teamButton:hover {
+  color: #3d59a7;
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url(images/homepage.jpg);
+  display: table;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.landing-content {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.landing-content h1 {
+  font-family: rale, sans-serif;
+  color: #F9F3F4;
+  text-shadow: 0px 0px 300px #000;
+  font-size: 500%;
+}
+
+.Teamintro {
+  padding-top: 100px;
+  height: 40%;
+  width: 100%;
+  margin: auto;
+  display: table;
+  top: 0;
+}
+
+.Teamintro .Teaminner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.Teamlanding-content {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Teamlanding-content h1 {
+  font-family: rale, sans-serif;
+  color: #F9F3F4;
+  text-shadow: 0px 0px 300px #000;
+  font-size: 350%;
+}
+
+#teamkBackground {
+  background: url(images/teamk.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+#teamsBackground {
+  background: url(images/break9.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+#teamyBackground {
+  background: url(images/break5.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+#teamxBackground {
+  background: url(images/break12.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.landing-content .btn {
+  border-radius: 35px;
+  font-family: osw, sans-serif;
+  color: #F9F3F4;
+  font-size: 135%;
+  padding: 10px 20px;
+  border: solid #F9F3F4 3px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  color: #f9f3f4;
+  border: solid #f9f3f4 3px;
+  background-color: #333333;
+}
+
+.paragraph {
+  font-size: 160%;
+  line-height: 210%;
+  text-align: justify;
+  margin: 3%;
+  font-family: sans, sans-serif;
+}
+
+.aboutParagraph {
+  font-size: 130%;
+  line-height: 180%;
+  text-align: justify;
+  margin: 3%;
+  font-family: sans, sans-serif;
+}
+
+/*#AboutUs {
+  position: relative;
+}
+#bottomAnchor {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 90px;
+  top: -90px;
+}*/
+
+.seperator {
+  padding-top: 90px;
+  width: 100%;
+  font-family: osw, sans-serif;
+  font-size: 500%;
+  display: table;
+}
+
+.seperator2 {
+  width: 100%;
+  font-family: osw, sans-serif;
+  font-size: 500%;
+  display: table;
+}
+
+.first {
+  display: table-cell;
+  color: black;
+  vertical-align: middle;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+#homepageBreak1 {
+  width: 100%;
+  height: 40%;
+  background: url(images/break4.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.Sponsers {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.Sponsers img {
+  width: 300px;
+}
+
+#homepageBreak2 {
+  width: 100%;
+  height: 40%;
+  background: url(images/break9.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+#homepageBreak3 {
+  width: 100%;
+  height: 40%;
+  background: url(images/state.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+#homepageBreak4 {
+  width: 100%;
+  height: 40%;
+  background: url(images/break10.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.footer {
+  background-color: #333333;
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer h2 {
+  font-family: osw, sans-serif;
+  color: #F9F3F4;
+  font-size: 1.5em;
+}
+
+.footer h3 {
+  font-family: osw, sans-serif;
+  color: #F9F3F4;
+}
+
+.socials {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.socials img {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+.embeded {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+
+
+
+/* All bootstrapping implementation */
+
+@media screen and (max-width: 768px) {
+  .content h1 {
+    font-size: 250%;
+  }
+
+  .btn {
+    font-size: 110%;
+    padding: 7px 15px;
+  }
+
+  .paragraph {
+    font-size: 130%;
+    line-height: 180%;
+    margin: 5%;
+  }
+
+  .aboutParagraph {
+    font-size: 100%;
+    line-height: 160%;
+    margin: 10%;
+  }
+
+  .mainLinks {
+    display: none;
+  }
+
+  .Sponsers img {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .Teams {
+    display: none;
+  }
+
+  .Sponsers img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .intro{
+    background-attachment: scroll;
+  }
+
+  #homepageBreak3 {
+    background-attachment: scroll;
+  }
+
+  #homepageBreak1  {
+    background-attachment: scroll;
+  }
+
+  #homepageBreak4  {
+    background-attachment: scroll;
+  }
+
+  #teamkBackground {
+    background-attachment: scroll;
+  }
+
+  #teamsBackground {
+    background-attachment: scroll;
+  }
+
+  #teamxBackground {
+    background-attachment: scroll;
+  }
+
+  #teamyBackground {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .embeded iframe{
+    width: 270px;
+    height: 152px;
+  }
+} 
